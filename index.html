@@ -7,11 +7,31 @@
     <meta name="description" content="Página associada ao RPG Vampiro a Máscara">
     <title>Vampiro a Máscara</title>
     <link rel="stylesheet" href="estilo.css">
+   <!-- codigo CSS que eu nao sei
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.0.min.js"></script>    
+         <script type="text/javascript">
+            $(function(){
+                alert("oi");
+                $("tr").hover(
+                        function(){$(this).addClass("linhaHover");},
+                        function(){$(this).removeClass("linhaHover");}
+                );
+ 
+            $("tr").click(function(){
+                $("tr").removeClass("linhaSelecionada");
+                $(this).addClass("linhaSelecionada");
+            });
+        });    
+    </script>
+    -->
+
+
+
 </head>
 <body>
     <main>
         <div>
-            <img src="Imagens/vamp.png" alt="logo vampiro a maáscara" height="400" width="850">
+            <img src="Imagens/vamp.png" alt="logo vampiro a maáscara" height="330" width="850">
         </div>
         <div>
             <p>
@@ -21,10 +41,20 @@
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, ad? Iste deserunt voluptas labore sit ab modi porro perspiciatis vel praesentium, qui itaque illo odio sint sequi molestias tempore molestiae.
             </p>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolorum rerum consectetur minima. Officia ratione soluta quis totam, nobis molestias recusandae inventore fugiat repellat. Ea similique possimus soluta aliquam repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore minus repudiandae deserunt totam necessitatibus, facilis quidem. Consectetur repellat eos fugiat repudiandae qui molestias est earum iste excepturi rem, quia voluptatibus.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolorum rerum consectetur minima. Officia ratione soluta quis totam, nobis molestias recusandae inventore fugiat repellat. Ea <span>possimus soluta aliquam</span> repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore minus repudiandae deserunt totam necessitatibus, facilis quidem. Consectetur repellat eos fugiat repudiandae qui molestias est earum iste excepturi rem, quia voluptatibus.
             </p>
         </div>
-      
+        <div>
+            <table>
+                <tr>
+                    <td>SEITAS</td>
+                    <td>CLÃs</td>
+                    <td>DISCIPLINAS</td>
+                    <td>NPCs</td>
+                    <td>CENÁRIO</td>
+                </tr>
+            </table>
+        </div>
     </main>
 </body>
 </html>
