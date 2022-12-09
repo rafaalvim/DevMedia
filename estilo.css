@@ -21,6 +21,10 @@ main{
 span{
     font-weight: bold;
 }
+.negrito_vermelho{
+    color:red
+}
+
 p{
     text-align: justify;
 }
