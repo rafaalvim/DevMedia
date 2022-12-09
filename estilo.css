@@ -18,16 +18,32 @@ main{
     box-shadow: 3px 3px 5px rgba(12, 12, 12, 0.281);
     border-radius: 5px;
 }
-span{
+
+.negrito_vermelho, .negrito_azul{
     font-weight: bold;
 }
 .negrito_vermelho{
     color:red
 }
 
+img.cent{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.negrito_azul{
+    color: blue;
+}
+
 p{
     text-align: justify;
 }
+
+p.cent {
+    text-align: center;
+}
+
 table{
     text-align: center;
     background-color: #17777d;
@@ -38,7 +54,7 @@ table{
     border-left: 2px solid  #0c3134;
   
 }
-a{
+a.bot{
     text-align: center;
     background-color: #17777d;
     color: #7da5a8;
@@ -50,13 +66,27 @@ a{
     padding: 5px 10px;
     border-radius: 5px;
     }
-/*
-.linhaHover{
-    background-color:#98FB98;
+
+a.bot2{
+    background-color: #c4d6d7;
+    border-right:2px solid #7da5a8;
+    border-top:2px solid #7da5a8;
+    border-bottom: 2px solid  #0c3134;
+    border-left: 2px solid  #0c3134;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 5px;
     }
 
-.linhaSelecionada{
-        background-color:#7CFC00;
-        font-weight:bold;
-        }
-*/
+div.box{
+    background-color: #17777d;
+    width: 800px;
+ 
+    padding: 10px;
+    box-shadow: 3px 3px 5px rgba(12, 12, 12, 0.281);
+    border-radius: 5px;
+}
+
+div{
+    margin: 25px auto;
+ }
