@@ -38,6 +38,7 @@ img.cent{
 
 p{
     text-align: justify;
+
 }
 
 p.cent {
@@ -89,4 +90,10 @@ div.box{
 
 div{
     margin: 25px auto;
+    background-color: aliceblue;
+    width: 800px;
+ /*   padding: 10px;
+    box-shadow: 3px 3px 5px rgba(12, 12, 12, 0.281);
+    border-radius: 5px;*/
  }
+
